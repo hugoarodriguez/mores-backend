@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: moresapigatewaypm
-          image: moresacr.azurecr.io/hugsr8/moresapigateway
+          image: moresacr.azurecr.io/hugsr8/mores-backend
           ports:
           - containerPort: 3000
 
