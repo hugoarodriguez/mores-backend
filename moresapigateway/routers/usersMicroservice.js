@@ -8,7 +8,7 @@ del host donde está corriendo la el Kubernete, si ya está el servicio publicad
 proporcionada por AKS */
 const apiAdapter = require('./apiAdapter');
 //const BASE_URL = 'http://host.docker.internal:5000';
-const BASE_URL = 'http://10.0.184.29:5000';
+const BASE_URL = 'http://localhost:5000';
 const api = apiAdapter(BASE_URL);
 var config = require('../config');
 const isValidated = require('../requestValidator');
